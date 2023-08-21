@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:magellanic/views/ui/main_screen.dart';
+import 'package:magellanic/presentation/routers/generated_routes.dart';
+// import 'package:magellanic/views/ui/main_screen.dart';
 
 void main() {
   SystemChrome.setSystemUIOverlayStyle(const SystemUiOverlayStyle(
@@ -23,7 +24,9 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: MainScreen(),
+      // home: const MainScreen(),
+      initialRoute: "/",
+      onGenerateRoute: RouteGenerator().generateRoute,
     );
   }
 }
