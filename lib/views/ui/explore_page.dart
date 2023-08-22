@@ -11,15 +11,13 @@ class ExplorePage extends StatefulWidget {
 class _ExplorePageState extends State<ExplorePage> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: Center(
-        child: Text(
-          'Explore Page',
-          style: appstyle(
-            40,
-            Colors.black,
-            FontWeight.bold,
-          ),
+    return Center(
+      child: Text(
+        'Explore Page',
+        style: appstyle(
+          40,
+          Colors.black,
+          FontWeight.bold,
         ),
       ),
     );
