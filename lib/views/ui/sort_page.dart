@@ -114,7 +114,7 @@ class _SortPageState extends State<SortPage> {
                     const Padding(
                       padding: EdgeInsets.only(top: 16, left: 8),
                       child: Text(
-                        'NFT Collection Title NFT Collection Title NFT Collection Title',
+                        'NFT Collection Title',
                         style: TextStyle(
                           fontSize: 16.0,
                           color: Colors.black,
