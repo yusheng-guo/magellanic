@@ -24,7 +24,8 @@ class _ProfilePageState extends State<ProfilePage> {
       //   "https://1.bp.blogspot.com/-btmcug58Bws/VgdDaWWFfGI/AAAAAAAAA98/4VNmFyJxv7Q/s1600/Tupai%2Bpaling%2Bbagus%2Bdan%2Bmahal.jpeg",
       //   fit: BoxFit.fitWidth,
       // ),
-      child: Image.network('https://picsum.photos/250?image=9'),
+      child: Image.network(
+          'https://i.seadn.io/gcs/files/a96ca7124ef59546be829798c52c2f5f.png?auto=format&dpr=1&w=1000'),
     );
   }
 }
