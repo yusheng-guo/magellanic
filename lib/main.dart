@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:magellanic/presentation/routers/generated_routes.dart';
-import 'package:permission_handler/permission_handler.dart';
 // import 'package:magellanic/views/ui/main_screen.dart';
 
 void main() async {

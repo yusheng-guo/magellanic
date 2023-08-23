@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:magellanic/views/shared/app_style.dart';
 
 class ProfilePage extends StatefulWidget {
   const ProfilePage({super.key});
